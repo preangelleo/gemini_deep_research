@@ -13,6 +13,10 @@ requests>=2.31.0             # HTTP library
 beautifulsoup4>=4.12.0       # HTML parsing
 lxml>=4.9.0                  # XML/HTML parser
 
+# Flask API Server
+flask>=3.0.0                 # Web framework
+flask-cors>=4.0.0            # CORS support for API
+
 # Data Processing and Analysis
 pandas>=2.0.0                # Data manipulation
 numpy>=1.24.0                # Numerical computing
