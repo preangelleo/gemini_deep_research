@@ -145,6 +145,12 @@ coordination/
 orchestration/
 subtasks/
 
+# Claude Code Assistant Files
+.claude-flow/
+.swarm/
+.hive-mind/
+.roo/
+
 # Large Files (crawled content, models, etc.)
 *.model
 large_files/
