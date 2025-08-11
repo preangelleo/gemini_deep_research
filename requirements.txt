@@ -1,0 +1,38 @@
+# Core Dependencies
+google-generativeai>=0.8.0   # Google Gemini API client (correct package name)
+crawl4ai[all]>=0.7.0         # Web scraping with AI capabilities
+playwright>=1.40.0           # Browser automation for Crawl4AI
+
+# Token Counting and Text Processing
+tiktoken>=0.5.0              # Accurate token counting (OpenAI-compatible)
+python-dotenv>=1.0.0         # Environment variable management
+
+# HTTP and Web Requests
+aiohttp>=3.8.0               # Async HTTP client
+requests>=2.31.0             # HTTP library
+beautifulsoup4>=4.12.0       # HTML parsing
+lxml>=4.9.0                  # XML/HTML parser
+
+# Data Processing and Analysis
+pandas>=2.0.0                # Data manipulation
+numpy>=1.24.0                # Numerical computing
+dateparser>=1.1.0            # Date parsing
+
+# Logging and Monitoring
+structlog>=23.0.0            # Structured logging
+rich>=13.0.0                 # Rich text and beautiful formatting
+
+# Performance and Concurrency
+uvloop>=0.17.0; sys_platform != "win32"  # Fast async event loop (Unix only)
+
+# Optional: Enhanced Features
+# chromadb>=0.4.0            # Vector database for caching
+# sentence-transformers>=2.2.0  # Semantic similarity
+# langdetect>=1.0.9          # Language detection
+
+# Development Dependencies
+pytest>=7.4.0               # Testing framework
+pytest-asyncio>=0.21.0      # Async testing
+black>=23.0.0               # Code formatting
+flake8>=6.0.0               # Linting
+mypy>=1.5.0                 # Type checking

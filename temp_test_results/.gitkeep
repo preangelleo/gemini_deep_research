@@ -1,0 +1,2 @@
+# This directory stores temporary test results for crash recovery
+# Files in this directory will be cleaned before git push
